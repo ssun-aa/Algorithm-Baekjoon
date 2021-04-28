@@ -20,7 +20,7 @@ public class Main {
 	public static void dfs(int v) {
 		System.out.print(v+" ");
 		visit[v]=true;
-		for(int i=1;i<=n;i++) {
+		for(int i=1 ;i<=n ;i++) {
 			if(map[v][i]==1 && !visit[i]) {
 				dfs(i);
 			}
