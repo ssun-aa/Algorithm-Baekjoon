@@ -14,7 +14,7 @@ public class boj9012 {
 			}
 			else if(string.charAt(i)==')') {//')'일 경우
 				x--;//x 감소
-				if(x<0)//괄호가 열리지 않았는데 먼저 닫히는 경우; ex. )(
+				if(x<0)//괄호가 열리지 않았는데 먼저 닫히는 경우; ex: )(
 					return "NO";
 			}
 		}
