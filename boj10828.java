@@ -45,8 +45,6 @@ public class boj10828 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		//Scanner의 경우 시간이 오래걸리기 때문에 BufferReader를 이용
 
-
-		
 		int n = Integer.parseInt(br.readLine());//readLine은 String 타입이라 integer로 변경
 		stack = new int[n];//명령어 수만큼 배열 생성
 		
