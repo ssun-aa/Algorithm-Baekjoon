@@ -18,7 +18,7 @@ public class boj1158 {
 		
 		System.out.print("<");
 		
-		while(que.size()!=1) {//큐의 사이즈가 1일때까지 반복
+		while(que.size()!=1) {//큐의 사이즈가 1일때까지 반복; 마지막 사람은 ','없이 출력하기 위함
 			for(int i=0; i<k-1; i++) {
 				que.add(que.poll());//1 ~ k-1번째 사람까지 삭제하고 큐의 마지막에 다시 추가
 			}
